@@ -1,87 +1,26 @@
-# Welcome to React Router!
+# 🤝 FriendlyDev Frontend
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A developer social network application built with **React** and **TypeScript**. This project is currently under active development as part of a comprehensive full-stack learning path.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 🚀 Current Features (In Progress)
+* **UI Foundation:** Implementation of core components like Navigation, Hero sections, and Layouts.
+* **Developer Listings:** Dynamic rendering of developer profiles from mock/initial data.
+* **Responsive Design:** Mobile-friendly interface built with modern CSS practices.
+* **TypeScript Integration:** Robust typing for props and component states.
 
-## Features
+## 🛠️ Tech Stack
+* **Framework:** React 18
+* **Language:** TypeScript
+* **Routing:** React Router DOM
+* **Icons:** Font Awesome / React Icons
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+## 📈 Roadmap
+- [ ] Implement User Authentication (JWT)
+- [ ] Add Global State Management (Redux/Context)
+- [ ] Create User Dashboard and Profile Management
+- [ ] Integrate Post & Comment system
 
 ---
 
-Built with ❤️ using React Router.
+### 🎓 Acknowledgments
+This project is being developed as part of the **"Modern React from the Beginning"** course by **Brad Traversy** on **Udemy**.
